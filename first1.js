@@ -1,4 +1,4 @@
 function add(a,b){
     return a+b;
 }
-add(5,7);
+add(7,7);
