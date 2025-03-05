@@ -7,4 +7,4 @@ arr.forEach((ar)=>{
     :`${ar.name} is below $50`)
 });
 }
-(processProducts(arr))
+processProducts(arr)
