@@ -25,6 +25,7 @@ console.log("Completed tasks......")
 let comple=arr1.filter((ele)=>ele.status==="completed").sort((a,b)=>a.title.localeCompare(b.title)).forEach(ele=>console.log(ele))
 console.log("Pending tasks...........")
 let pend=arr1.filter((ele)=>ele.status==="pending").sort((a,b)=>a.title.localeCompare(b.title)).forEach(ele=>console.log(ele))
+console.log("**************");
 let count=arr1.reduce((acc,{status})=>{
     acc[status]=(acc[status]||0)+1;
     return acc
